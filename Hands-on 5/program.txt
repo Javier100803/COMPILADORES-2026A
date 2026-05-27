@@ -1,0 +1,20 @@
+LOAD c
+LOAD a
+ADD
+STORE resultado
+LOAD resultado
+RET
+LOAD x
+RET
+LOAD w
+STORE x
+LOAD x
+CALL suma
+LOAD x
+CALL noExiste
+LOAD x
+STORE z
+LOAD x
+STORE z
+LOAD noDeclarada
+RET
