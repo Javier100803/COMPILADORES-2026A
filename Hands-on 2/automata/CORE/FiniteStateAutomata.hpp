@@ -4,7 +4,9 @@
 #include <vector>
 #include "State.hpp"
 #include "Transition.hpp"
+#include "string"
 
+bool evaluate(const std::string& input);
 class FiniteStateAutomata {
 
 private:
